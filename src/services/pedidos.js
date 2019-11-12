@@ -1,8 +1,7 @@
-import { http} from './config'
+import { http } from './config'
 
 export default {
-    listar:(numped) => {
-        return http.get('/atv/' + numped)
-
-    }
+  listar: (numped) => {
+    return http.get('/atv/' + numped)
+  }
 }
